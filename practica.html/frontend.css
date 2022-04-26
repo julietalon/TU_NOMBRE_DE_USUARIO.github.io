@@ -1,0 +1,18 @@
+body{
+    font-family:  'Raleway', 'Times New Roman', Times, sans-serif;
+}
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    margin: auto;
+    gap: 10px;
+}
+.header{
+    height: 500px;
+}
+.img-hero{
+    width: 40%;
+    max-width: 100px;
+    height: auto;
+    grid-column: 7/13;
+}
